@@ -17,19 +17,22 @@ html, body{
 #contact {
     position: absolute;
     margin-left: 93%;
-    z-index: 2;  
+    z-index: 2;
+    font-family: Helvetica, sans-serif;  
 }
 
 #campus {
     position: absolute;
     margin-left: 85%;
-    z-index: 2;    
+    z-index: 2;
+    font-family: Helvetica, sans-serif;    
 }
 
 #experience {
     position: absolute;
     margin-left: 77.5%;
-    z-index: 2;    
+    z-index: 2;
+    font-family: Helvetica, sans-serif;    
 }
 
 
