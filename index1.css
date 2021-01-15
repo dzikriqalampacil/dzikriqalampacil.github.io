@@ -42,9 +42,8 @@ html, body{
     text-align: center;
     position: static;
     /*border: 2px solid black;*/
-    margin-top: 50px;
     width: 350px;
-    margin-left: 500px;
+    margin: auto;
 }
 
 img {

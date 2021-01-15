@@ -11,6 +11,7 @@ $(document).ready(function(){
         $(this).css("border-radius", "25px");
         $(this).css("width", "auto");
         $(this).css("height", "auto");
+        $(this).css("cursor", "pointer");
         }, function(){
         $(this).css("background-color", "transparent");
       });
