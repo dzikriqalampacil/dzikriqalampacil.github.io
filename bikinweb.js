@@ -1,3 +1,14 @@
+$(function() {
+    $("#enter").click(function() {
+        var surname = $('#sname').val();
+        $(".masukan").fadeOut(750, function(){
+            $(".header").fadeIn(750);
+            $(".Opening").fadeIn(750);
+            $("#panggil").append(surname+"!");
+        });
+    });
+});
+
 $(document).ready(function(){
 
     $('#campus').on('click', function(){

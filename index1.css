@@ -1,3 +1,38 @@
+.masukan{
+    text-align: center;
+    margin-top: 18%;
+    
+}
+
+#petunjuk{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-right: 10px;
+}
+
+input{
+    border: 2px solid black;
+    position: absolute;
+    width: 25%; 
+    transform: translate(-45%, -60%);
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+}
+
+button{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    transform: translate(-224%, 60%);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background: radial-gradient(ellipse at center, #3BD56F, #8FD02B);
+    border: 2px solid black;
+}
+
 .header {
     background: linear-gradient(to right, blue, yellow);
     z-index: 1;
@@ -58,3 +93,4 @@ html, body {
     margin:0;
     padding: 0;
 }
+
