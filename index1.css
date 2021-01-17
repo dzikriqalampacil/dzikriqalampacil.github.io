@@ -1,36 +1,37 @@
 .masukan{
-    text-align: center;
-    margin-top: 18%;
-    
+    margin: 15% 37%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 700px;
 }
 
 #petunjuk{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: xx-large;
-    margin-right: 10px;
+    font-size: xx-large;    
 }
 
 input{
     border: 2px solid black;
-    position: absolute;
-    width: 25%; 
-    transform: translate(-45%, -60%);
+    width: 10em; 
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold; 
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
 }
 
 button{
-    position: absolute;
     width: 70px;
     height: 40px;
-    transform: translate(-224%, 60%);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: large;
     background: radial-gradient(ellipse at center, #3BD56F, #8FD02B);
     border: 2px solid black;
+    position: relative;
+    bottom: 15px;
 }
 
 .header {
@@ -40,39 +41,32 @@ button{
     width: 100%;
     margin-bottom: 20px;
     position: static;
-    border-bottom: 2px solid black;  
+    border-bottom: 2px solid black;
+    flex-flow: row nowrap; 
+    justify-content: flex-end; 
+    align-items: center;
 }
 
-#contact {
-    position: absolute;
-    margin-left: 93%;
+.header p{
     z-index: 2;
-    font-family: Helvetica, sans-serif;  
+    font-family: Helvetica, sans-serif;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
 }
 
-#campus {
-    position: absolute;
-    margin-left: 85%;
-    z-index: 2;
-    font-family: Helvetica, sans-serif;    
-}
-
-#experience {
-    position: absolute;
-    margin-left: 77.5%;
-    z-index: 2;
-    font-family: Helvetica, sans-serif;    
-}
 
 
 .Opening {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    width: 400px;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
     text-align: center;
-    position: static;
-    /*border: 2px solid black;*/
-    width: 350px;
-    margin: auto;
+
 }
 
 img {
@@ -81,11 +75,10 @@ img {
     border: 2px solid black;
     border-radius: 25px ;
     position: static;
-    margin-top: 20px;
         
 }
 
-html, body {  
+body {  
     z-index: 0;
     height: 100vh;
     width: 100%;

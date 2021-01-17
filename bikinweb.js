@@ -2,8 +2,11 @@ $(function() {
     $("#enter").click(function() {
         var surname = $('#sname').val();
         $(".masukan").fadeOut(750, function(){
+            $(".masukan").remove();
             $(".header").fadeIn(750);
             $(".Opening").fadeIn(750);
+            $(".header").css("display", "flex");
+            $(".opening").css("display", "flex");
             $("#panggil").append(surname+"!");
         });
     });
