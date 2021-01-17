@@ -38,7 +38,7 @@ button{
 .header {
     background: linear-gradient(to right, blue, yellow);
     z-index: 1;
-    height: 45px;
+    height: 7vh;
     width: 100%;
     margin-bottom: 20px;
     position: static;
