@@ -1,9 +1,10 @@
 .masukan{
-    margin: 15% 37%;
-    display: flex;
-    flex-flow: column;
-    align-items: flex-start;
-    width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
 }
 
 #petunjuk{
